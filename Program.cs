@@ -19,7 +19,7 @@ namespace console1 {
 
                 Console.WriteLine("Digite sua senha");
                 senha = Console.ReadLine();
-
+                Console.WriteLine("DIGITE NOVAMENTE");
             } while(!usuario.Logar(login, senha));
 
         }
